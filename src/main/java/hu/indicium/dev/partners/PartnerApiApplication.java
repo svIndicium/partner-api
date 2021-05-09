@@ -1,4 +1,4 @@
-package hu.indicium.dev.partnerapi;
+package hu.indicium.dev.partners;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
