@@ -72,6 +72,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.keycloak</groupId>
+			<artifactId>keycloak-admin-client</artifactId>
+			<version>11.0.3</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.postgresql</groupId>
