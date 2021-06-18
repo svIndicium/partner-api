@@ -1,11 +1,14 @@
-package hu.indicium.dev.partners.infrastructure.location;
+package hu.indicium.dev.partners.application.commands;
 
-import lombok.Builder;
 import lombok.Data;
 
 @Data
-@Builder
-public class CreateLocationRequest {
+public class CreatePartnerCommand {
+    private String name;
+
+    private String description;
+
+    private String logoUrl;
 
     private String street;
 
