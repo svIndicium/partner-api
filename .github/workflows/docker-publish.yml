@@ -22,6 +22,7 @@ env:
   RABBITMQ_HOST: localhost
   SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  INDICIUM_LOCATION: localhost
 
 jobs:
   # Run tests.
